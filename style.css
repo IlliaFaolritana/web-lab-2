@@ -37,42 +37,38 @@ h1, h2{
 h3, h4{
     font-weight: normal;
 }
-
 .middle-container{
-    position: relative;
+    display: table;
+    width: 100%;
+    padding: 0;
     height: calc(100% - 150px);
     min-height: calc(100vh - 150px);
-    overflow: auto;
 }
 .second{
-    position: absolute;
+    display: table-cell;
     padding: 0 1em 0 0;
     width: 15%;
-    height: 100%;
     word-break: break-word;
     background-color: #394748;
     color: #FFFFFF;
 }
 .right-middle-container{
-    float:right;
-    width: 85%;
+    display: table-cell;
+    width: 100%;
 }
 .third{
     background-color: #78FAAE;
     color:#0E3A2F
 }
 .bottom-right-middle-container{
-    position: relative;
+    display: table;
     width: 100%;
-    overflow: auto;
 }
 .forth-sixth{
-    float: left;
+    display: table-cell;
     width: 80%;
-    height: 100%;
 }
 .forth{
-    height: calc(100%-100px);
     background-color:#F1F2F2;
 }
 .sixth{
@@ -82,10 +78,7 @@ h3, h4{
     color:#0E3A2F
 }
 .fifth{
-    position: absolute;
-    overflow: auto;
-    right: 0;
-    height: 100%;
+    display: table-cell;
     width: 20%;
     background-color: #394748;
     color: #FFFFFF;
