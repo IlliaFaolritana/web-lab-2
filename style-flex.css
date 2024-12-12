@@ -48,7 +48,7 @@ h3, h4{
 }
 .second{
     padding: 0 1em 0 0;
-    width: 10%;
+    width: 15%;
     word-break: break-word;
     background-color: #394748;
     color: #FFFFFF;
@@ -56,7 +56,7 @@ h3, h4{
 .right-middle-container{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 85%;
 }
 .third{
     background-color: #78FAAE;
@@ -69,14 +69,15 @@ h3, h4{
 .forth-sixth{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 .forth{
-    height: 100%;
+    height: calc(100%-100px);
     background-color:#F1F2F2;
 }
 .sixth{
+    height: 100px;
     background-color: #78FAAE;
     color:#0E3A2F
 }

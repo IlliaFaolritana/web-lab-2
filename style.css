@@ -20,7 +20,6 @@ a {
 .main-container{
     min-height: 100vh;
     font-size: 18px;
-    height: 100%;
 }
 header{
     box-sizing: border-box;
@@ -40,44 +39,53 @@ h3, h4{
 }
 
 .middle-container{
-    display: table;
+    position: relative;
     height: calc(100% - 150px);
     min-height: calc(100vh - 150px);
+    overflow: auto;
 }
 .second{
-    display: table-cell;
+    position: absolute;
     padding: 0 1em 0 0;
-    width: 10%;
+    width: 15%;
+    height: 100%;
     word-break: break-word;
     background-color: #394748;
     color: #FFFFFF;
 }
 .right-middle-container{
-    display: table-cell;
-    width: 80%;
+    float:right;
+    width: 85%;
 }
 .third{
     background-color: #78FAAE;
     color:#0E3A2F
 }
 .bottom-right-middle-container{
-    display: table-cell;
-    height: 100%;
+    position: relative;
+    width: 100%;
+    overflow: auto;
 }
 .forth-sixth{
-    display: table-cell;
+    float: left;
     width: 80%;
     height: 100%;
 }
 .forth{
-    height: 100%;
+    height: calc(100%-100px);
     background-color:#F1F2F2;
 }
 .sixth{
+    height: 100px;
+    width: 100%;
     background-color: #78FAAE;
     color:#0E3A2F
 }
 .fifth{
+    position: absolute;
+    overflow: auto;
+    right: 0;
+    height: 100%;
     width: 20%;
     background-color: #394748;
     color: #FFFFFF;
